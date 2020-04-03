@@ -1,0 +1,212 @@
+html {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}body {
+  background-color: #ECEEF1;
+  display: grid;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: grid;
+  justify-content: end;
+  text-align: right;
+}
+
+input {
+  text-align: left;
+  height: 34px;
+  width: 95%;
+  min-width: 160px;
+  border-radius: 4px;
+  padding-left: 10px;
+  color: #000000;
+  margin-top: -200px;
+  font-size: 1.2em;
+}
+
+input:focus{
+border-color: blue;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  color: #505050;
+  margin-top: 59rem;
+  margin-left:32rem;
+}
+
+footer a {
+  text-align: center;
+  text-decoration: none;
+  color: #505050;
+}
+
+h1 {
+color: #4C4C4C;
+font-weight: 400;
+line-height: 1.1;
+font-size: 2.1rem;
+font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.topSign {
+  grid-column:3;
+  grid-row-start:1;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  background: #0077C5;
+  color: white;
+  margin-right: 2rem;
+  font-size: 1.125em;
+  font-weight: normal;
+  padding: 0 20px 0 20px;
+
+}
+
+.alText {
+  grid-column: 2;
+  grid-row: 1;
+  padding-right: 1rem;
+  margin-top: 2px;
+  margin-bottom: 1rem;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: normal;
+color: #505050;
+
+}
+
+.fPass{
+  grid-column:2;
+  grid-row: 1;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  grid-gap: 2rem;
+  align-content: center;
+  margin-right:  32rem;
+  margin-left:   40rem;
+  margin-bottom: 1.5rem;
+  max-width: 380px;
+  min-width: 380px;
+
+
+}
+
+.body {
+  margin-top: 3.5rem;
+  margin-left: 10rem;
+}
+
+.intuitLogo {
+  margin-left: 1rem;
+  place-self: center;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.mint {
+  grid-column: 1;
+  grid-row: 2;
+  place-self:end;
+
+}
+
+.quickbooks {
+  grid-column: 2;
+  grid-row: 2;
+
+
+}
+
+.turbotax {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.EPP {
+  text-align: left;
+  font-size: 1.2em;
+  padding-bottom: 6px;
+  font-weight: normal;
+  color: #404040;
+  line-height: 25px;
+}
+
+.EPP2 {
+  font-size: 0.9rem;
+color: #444;
+text-align: left;
+}
+
+.signIn {
+  text-align: center;
+
+  grid-gap: 1rem;
+  border-bottom: none;
+  margin-bottom: 10rem;
+  margin-right: 32rem;
+  margin-left:   37rem;
+  min-width: 480px;
+  max-width: 480px;
+  max-height: 10rem;
+  background: #fff;
+  overflow: visible;
+}
+
+.signIn > div {
+  border: 1px solid #c7c7c7;
+  border-bottom: none;
+  background: #fff;
+  padding: 2rem;
+}
+
+.signIn > div:last-child {
+
+  border: 1px solid #c7c7c7;
+  border-top:none;
+  background-color: #ECEEF1;
+  position: relative;
+  font-style:italic;
+  color: grey;
+  text-align:center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+
+.reCAPTCHA {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align:center;
+  background-clip: content-box;
+
+}
+
+.createAccount{
+  background-color: #0077c5;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 1.27em;
+  min-width: 100px;
+  padding: 12px 125px;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.italicText {
+  font-style:italic;
+  color: grey;
+  text-align:center;
+}
